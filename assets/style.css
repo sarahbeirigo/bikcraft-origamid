@@ -1,0 +1,168 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+  min-height: 100vh;
+  background: var(--cinza-fundo);
+}
+
+footer {
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+h1,
+h2,
+h2,
+p {
+  margin: 0;
+}
+
+p {
+  font-size: 20px;
+}
+header {
+  padding: 20px 20px 0 20px;
+  margin: 20px 20px 0 20px;
+}
+
+main {
+  margin: 20px;
+  padding: 20px;
+}
+
+.ver-mais {
+  background-color: var(--vermelho);
+  border-radius: 4px;
+  padding: 15px;
+  text-decoration: none;
+  color: var(--cinza-fundo);
+  display: inline-block;
+  margin-top: 40px;
+}
+ 
+
+.menu {
+  list-style: none;
+  font-size: 1.1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  place-content: center;
+  margin: 70px;
+}
+
+.nav-link {
+  background-color: var(--branco);
+  color: black;
+  padding: 20px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.nav-link:hover {
+  outline: 2px solid var(--vermelho);
+  border-radius: 4px;
+}
+
+.conteudo-principal {
+  padding: 0 100px 0 100px;
+  margin: 0 100px 0 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.texto-botao {
+  text-align: right;
+  padding: 40px;
+  place-self: center;
+  line-height: 1.8;
+  margin: 20px;
+}
+.propaganda-bike {
+  grid-column: 1;
+  place-items: center;
+  background-color: var(--branco);
+}
+.propaganda-bike img {
+  grid-column: 2;
+  place-items: center;
+}
+.propaganda-bike img::after {
+  content: " ";
+  width: 30px;
+  height: 4px;
+  color: var(--vermelho);
+}
+
+.vantagens-bik {
+  padding: 0 100px 0 100px;
+  margin: 0 100px 0 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.vantagens-texto {
+  font-size: 64px;
+  color: var(--cinza-texto);
+  text-align: center;
+  place-content: center;
+}
+
+.especificacoes {
+  background-color: var(--branco);
+  padding: 40px;
+}
+
+.velocidade, .motor-eletrico, .rastreador{
+  padding: 30px;
+}
+
+.especificacoes div:nth-child(odd) {
+  background: var(--cinza-fundo);
+
+}
+.especificacoes div:hover{
+  /* border-left: 4px solid var(--vermelho); */
+  border-left: 4px solid red; /* Define a borda no lado esquerdo */
+  border-top: none; 
+  border-right: none;
+  border-bottom: none;
+}
+
+.motor-eletrico p {
+  margin: 30px;
+}
+
+.motor-eletrico h2::before{
+  display: inline;
+  content: url('./img/eletrica.svg');
+  margin-right: 30px;
+}
+
+
+.pattern{
+  background-image: url('./img/onda.svg');
+  
+}
+
+.footer{
+  background-color: var(--branco);
+  padding: 30px;
+}
+
+
