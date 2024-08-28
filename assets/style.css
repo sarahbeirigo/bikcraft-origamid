@@ -5,14 +5,11 @@ body {
   min-width: 100%;
   min-height: 100vh;
   background: var(--cinza-fundo);
-}
-
-footer {
-  text-align: center;
+  font-size: 1rem;
 }
 
 p {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 img {
@@ -22,7 +19,7 @@ img {
 }
 
 h1 {
-  font-size: 35px;
+  font-size: 2.188rem;
 }
 
 h1,
@@ -32,9 +29,6 @@ p {
   margin: 0;
 }
 
-p {
-  font-size: 20px;
-}
 header {
   padding: 20px 20px 0 20px;
   margin: 20px 20px 0 20px;
@@ -45,16 +39,25 @@ main {
   padding: 20px;
 }
 
+.texto-botao a {
+  font-weight: 500;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.texto-botao a:hover {
+  background-color: rgb(191, 32, 17);
+}
 .ver-mais {
   background-color: var(--vermelho);
   border-radius: 4px;
-  padding: 15px;
+  padding: 1rem 2rem;
   text-decoration: none;
-  color: var(--cinza-fundo);
   display: inline-block;
   margin-top: 40px;
+  border-style: none;
+  color: var(--cinza-fundo);
 }
- 
 
 .menu {
   list-style: none;
@@ -84,6 +87,7 @@ main {
   margin: 0 100px 0 100px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  position: relative;
 }
 
 .texto-botao {
@@ -102,11 +106,16 @@ main {
   grid-column: 2;
   place-items: center;
 }
-.propaganda-bike img::after {
-  content: " ";
-  width: 30px;
+
+.conteudo-principal::after {
+  content: "";
+  display: block;
   height: 4px;
-  color: var(--vermelho);
+  width: 70px;
+  background: var(--vermelho);
+  position: absolute;
+  bottom: 400px;
+  left: 670px;
 }
 
 .vantagens-bik {
@@ -115,12 +124,21 @@ main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-
-.vantagens-texto {
-  font-size: 64px;
+.vantagens-container{
+  display: grid;
+  place-items: center; 
+  width: 100%;
+  height: 100%;
+}
+.vantagens-container h2 {
+  font-size: 4rem;
   color: var(--cinza-texto);
-  text-align: center;
-  place-content: center;
+  text-align: right;
+  margin-right: 60px;
+}
+
+.pattern {
+  background-image: url("./img/onda.svg");
 }
 
 .especificacoes {
@@ -128,41 +146,73 @@ main {
   padding: 40px;
 }
 
-.velocidade, .motor-eletrico, .rastreador{
+.velocidade,
+.motor-eletrico,
+.rastreador {
   padding: 30px;
 }
 
 .especificacoes div:nth-child(odd) {
   background: var(--cinza-fundo);
-
 }
-.especificacoes div:hover{
+.especificacoes div {
+  border-left: 4px solid transparent;
+}
+.especificacoes div:hover {
   /* border-left: 4px solid var(--vermelho); */
   border-left: 4px solid red; /* Define a borda no lado esquerdo */
-  border-top: none; 
+  border-top: none;
   border-right: none;
   border-bottom: none;
 }
 
-.motor-eletrico p {
-  margin: 30px;
+.motor-eletrico,
+.velocidade,
+.rastreador {
+  margin: 20px;
 }
 
-.motor-eletrico h2::before{
+.especificacoes h2 {
+  margin-bottom: 15px;
+}
+.especificacoes h2,
+p {
+  margin-left: 25px;
+  position: relative;
+}
+
+.motor-eletrico h2::before {
   display: inline;
-  content: url('./img/eletrica.svg');
-  margin-right: 30px;
+  content: url("./img/eletrica.svg");
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  line-height: 0.5;
+  left: -45px;
 }
 
-
-.pattern{
-  background-image: url('./img/onda.svg');
-  
+.velocidade h2::before {
+  display: inline;
+  content: url("./img/velocidade.svg");
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  line-height: 0.5;
+  left: -45px;
 }
 
-.footer{
+.rastreador h2::before {
+  display: inline;
+  content: url("./img/rastreador.svg");
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  line-height: 0.5;
+  left: -45px;
+}
+
+footer {
+  text-align: center;
   background-color: var(--branco);
-  padding: 30px;
+  padding: 50px;
 }
-
-
