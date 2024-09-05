@@ -16,6 +16,8 @@ img {
   max-width: 100%;
   display: block;
   margin: auto;
+  height: 100%;
+  object-fit: cover;
 }
 
 h1 {
@@ -48,6 +50,7 @@ main {
 .texto-botao a:hover {
   background-color: rgb(191, 32, 17);
 }
+
 .ver-mais {
   background-color: var(--vermelho);
   border-radius: 4px;
@@ -104,7 +107,6 @@ main {
 }
 .propaganda-bike img {
   grid-column: 2;
-  place-items: center;
 }
 
 .conteudo-principal::after {
@@ -115,7 +117,7 @@ main {
   background: var(--vermelho);
   position: absolute;
   bottom: 400px;
-  left: 670px;
+  left: 585px;
 }
 
 .vantagens-bik {
@@ -124,9 +126,10 @@ main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-.vantagens-container{
+
+.vantagens-container {
   display: grid;
-  place-items: center; 
+  place-items: center;
   width: 100%;
   height: 100%;
 }
@@ -175,6 +178,7 @@ main {
 .especificacoes h2 {
   margin-bottom: 15px;
 }
+
 .especificacoes h2,
 p {
   margin-left: 25px;
