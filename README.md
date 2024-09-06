@@ -67,5 +67,5 @@ Neste projeto, aprofundei meu conhecimento em:
 
 Se você quiser saber mais sobre o projeto ou entrar em contato:
 
-- **Email**: [seuemail@example.com](mailto:sarahcbeirigo@gmail.com)
-- **LinkedIn**: [Seu Perfil no LinkedIn](LInkedin.com/in/sarah-beirigo)
+- **Email**: [sarahcbeirigo@gmail.com](mailto:sarahcbeirigo@gmail.com)
+- **LinkedIn**: [linkedin.comm/sarah-beirigo](LInkedin.com/in/sarah-beirigo)
