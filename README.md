@@ -1,7 +1,10 @@
+<h4 align="center"> 
+    :construction:  Projeto em construção  :construction:
+</h4>
 
-# Bikcraft | :construction: Projeto em construção :construction:
+<h2 align="center">🚴‍♂️ Bikcraft</h2>
 
-🚴‍♂️ **Bikcraft** é um projeto de e-commerce fictício criado para a venda de bicicletas personalizadas. O site foi desenvolvido utilizando exclusivamente HTML e CSS, com foco em uma interface limpa, simples e moderna. Este projeto faz parte do curso **Origamid** e foi elaborado para praticar habilidades de front-end, com atenção especial ao design e à experiência do usuário.
+**Bikcraft** é um projeto de e-commerce fictício criado para a venda de bicicletas personalizadas. O site foi desenvolvido utilizando exclusivamente HTML e CSS, com foco em uma interface limpa, simples e moderna. Este projeto faz parte do curso **Origamid** e foi elaborado para praticar habilidades de front-end, com atenção especial ao design e à experiência do usuário.
 
 ![Bikcraft Preview](./assets/img/bikecraft-preview-1.jpg)
 ![Bikcraft Preview](./assets/img/bikecraft-preview-2.jpg)
@@ -73,3 +76,6 @@ Se você quiser saber mais sobre o projeto ou entrar em contato:
 
  <a href = "mailto:sarahcbeirigo@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/sarah-beirigo/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+
+##
+<p align="center">👩🏼‍💻 code by <a href="https://github.com/sarahbeirigo">Sarah Beirigo</a></p>
