@@ -1,6 +1,5 @@
-<h4 align="center"> 
-    :construction:  Projeto em construção  :construction:
-</h4>
+<p align="center"><img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/></p>
+
 
 <h2 align="center">🚴‍♂️ Bikcraft</h2>
 
@@ -55,7 +54,7 @@ cd bikcraft-origamid
 
 3. Abra o arquivo `index.html` diretamente no navegador para visualizar o site.
 
-## 📈 Aprendizados
+## ✍️ Aprendizados
 
 Neste projeto, aprofundei meu conhecimento em:
 
