@@ -6,8 +6,7 @@
 
 **Bikcraft** é um projeto de e-commerce fictício criado para a venda de bicicletas personalizadas. O site foi desenvolvido utilizando exclusivamente HTML e CSS, com foco em uma interface limpa, simples e moderna. Este projeto faz parte do curso **Origamid** e foi elaborado para praticar habilidades de front-end, com atenção especial ao design e à experiência do usuário.
 
-![Bikcraft Preview](./assets/img/bikecraft-preview-1.jpg)
-![Bikcraft Preview](./assets/img/bikecraft-preview-2.jpg)
+![Bikcraft Preview](./assets/img/preview.png)
 
 
 
