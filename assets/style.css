@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -93,11 +93,19 @@ main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   position: relative;
- 
+}
+.conteudo-principal::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 0.25rem;
+  width: 6rem;
+  background: var(--vermelho);
+  bottom: 40rem;
+  left: 68rem;
 }
 
 .propaganda-bike {
-  
   background-color: var(--branco);
   display: grid;
   place-items: center;
@@ -111,20 +119,7 @@ main {
   padding: 2.5rem;
   line-height: 1.8;
   margin: 1.25rem;
-  grid:1
-}
-
-
-.conteudo-principal::after {
-  content: "";
-  display: block;
-  height: 0.25rem;
-  width: 4.375rem;
-  background: var(--vermelho);
-  position: absolute;
-  bottom: 25rem;
-  left: 36.563rem;
-  display:none;
+  grid: 1;
 }
 
 .vantagens-bik {
@@ -141,7 +136,6 @@ main {
   height: 100%;
 }
 .vantagens-container h2 {
-  
   font-size: 6rem;
   color: var(--cinza-texto);
   text-align: right;
