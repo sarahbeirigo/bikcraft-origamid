@@ -32,6 +32,7 @@ Bikcraft/
 ├── assets/                # Pasta de ativos
 │   ├── style.css          # Arquivo principal de estilos
 │   ├── colors.css         # Arquivo de cores
+│   ├── media-queries.css  # Arquivo para responsividade
 │   └── img/               # Pasta de imagens
 │
 ├── index.html             # Página inicial
@@ -64,9 +65,9 @@ Neste projeto, aprofundei meu conhecimento em:
 
 ## 💡 Melhorias Futuras
 
-- Design responsivo adaptado para diferentes tamanhos de tela (desktop e mobile)
-- Adição de interatividade com JavaScript, como animações mais complexa
-- Implementação de um sistema dinâmico para o envio de mensagens no formulário de contato
+- [x] Design responsivo adaptado para diferentes tamanhos de tela (desktop e mobile)
+- [ ] Adição de interatividade com JavaScript, como animações mais complexa
+- [ ] Implementação de um sistema dinâmico para o envio de mensagens no formulário de contato
 
 ## 📝 Contato
 
