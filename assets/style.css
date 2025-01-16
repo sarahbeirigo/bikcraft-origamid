@@ -1,3 +1,13 @@
+/* Ligth Theme */
+:root {
+  --fundo: #e9e7e7;
+  --fundo-secundario: #fff;
+  --cor-primaria: #ee2211;
+  --titulo: #080808d8;
+  --texto: #1e1e1e;
+  --onda: url("./img/onda-ligth.svg")
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,15 +16,16 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   min-width: 100%;
   min-height: 100vh;
-  background: var(--cinza-fundo);
+  background: var(--fundo);
   font-size: 1rem;
 }
 
 p {
   font-size: 1.25rem;
+  color: var(--texto);
 }
 
-img {
+img, svg {
   max-width: 100%;
   display: block;
   margin: auto;
@@ -24,6 +35,11 @@ img {
 
 h1 {
   font-size: 2.188rem;
+}
+
+h1,
+h2 {
+  color: var(--titulo);
 }
 
 h1,
@@ -47,21 +63,21 @@ main {
   font-weight: 500;
   font-size: 1.2rem;
   font-weight: 400;
-}
+  color: var(--texto);}
 
 .texto-botao a:hover {
   background-color: rgb(191, 32, 17);
 }
 
 .ver-mais {
-  background-color: var(--vermelho);
+  background-color: var(--cor-primaria);
   border-radius: 0.25rem;
   padding: 1rem 2rem;
   text-decoration: none;
   display: inline-block;
   margin-top: 2.5rem;
   border-style: none;
-  color: var(--cinza-fundo);
+  color: var(--fundo);
 }
 
 .menu {
@@ -75,15 +91,15 @@ main {
 }
 
 .nav-link {
-  background-color: var(--branco);
-  color: black;
+  background-color: var(--fundo-secundario);
+  color: var(--texto);
   padding: 1.25rem;
   text-decoration: none;
   border-radius: 0.25rem;
 }
 
 .nav-link:hover {
-  outline: 0.125rem solid var(--vermelho);
+  outline: 0.125rem solid var(--cor-primaria);
   border-radius: 0.25rem;
 }
 
@@ -100,13 +116,13 @@ main {
   position: absolute;
   height: 0.25rem;
   width: 6rem;
-  background: var(--vermelho);
-  bottom: 40rem;
-  left: 68rem;
+  background: var(--cor-primaria);
+  bottom: 30rem;
+  left: 48rem;
 }
 
 .propaganda-bike {
-  background-color: var(--branco);
+  background-color: var(--fundo-secundario);
   display: grid;
   place-items: center;
 }
@@ -137,16 +153,13 @@ main {
 }
 .vantagens-container h2 {
   font-size: 6rem;
-  color: var(--cinza-texto);
-  text-align: right;
-  margin-right: 3.75rem;
+  color: var(--titulo);
+  text-align: center;
+  background-image: var(--onda);
 }
 
-.pattern {
-  background-image: url("./img/onda.svg");
-}
 .especificacoes {
-  background-color: var(--branco);
+  background-color: var(--fundo-secundario);
   padding: 2.5rem;
 }
 
@@ -163,11 +176,12 @@ main {
   border-left: 0.25rem solid transparent;
 }
 .especificacoes div:hover {
-  /* border-left: 0.25rem solid var(--vermelho); */
+  /* border-left: 0.25rem solid var(--cor-primaria); */
   border-left: 0.25rem solid red; /* Define a borda no lado esquerdo */
   border-top: none;
   border-right: none;
   border-bottom: none;
+  cursor: pointer;
 }
 
 .motor-eletrico,
@@ -218,6 +232,6 @@ p {
 
 footer {
   text-align: center;
-  background-color: var(--branco);
+  background-color: var(--fundo-secundario);
   padding: 2rem;
 }

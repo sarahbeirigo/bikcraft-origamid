@@ -1,4 +1,16 @@
-/* Medias Queries */
+
+/* Dark Theme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fundo: #1e1e1e;
+    --fundo-secundario: #272727;
+    --cor-primaria: #ee2211;
+    --texto: #dadada;
+    --titulo: #ccc9c9d8;
+    --onda: url("./img/onda-dark.svg")
+  }
+}
+
 @media only screen and (min-width: 340px) and (max-width: 480px) {
   p {
     font-size: 1rem;
