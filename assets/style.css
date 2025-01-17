@@ -5,13 +5,15 @@
   --cor-primaria: #ee2211;
   --titulo: #080808d8;
   --texto: #1e1e1e;
-  --onda: url("./img/onda-ligth.svg")
+  --onda: url("./img/onda-ligth.svg");
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 * {
@@ -31,7 +33,8 @@ p {
   color: var(--texto);
 }
 
-img, svg {
+img,
+svg {
   max-width: 100%;
   display: block;
   margin: auto;
@@ -69,7 +72,8 @@ main {
   font-weight: 500;
   font-size: 1.2rem;
   font-weight: 400;
-  color: var(--texto);}
+  color: var(--texto);
+}
 
 .texto-botao a:hover {
   background-color: rgb(191, 32, 17);
