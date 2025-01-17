@@ -180,7 +180,7 @@ main {
 }
 
 .especificacoes div:nth-child(odd) {
-  background: var(--cinza-fundo);
+  background: var(--fundo);
 }
 .especificacoes div {
   border-left: 0.25rem solid transparent;
