@@ -67,7 +67,6 @@ Neste projeto, aprofundei meu conhecimento em:
 
 - [x] Design responsivo adaptado para diferentes tamanhos de tela (desktop e mobile)
 - [ ] Adição de interatividade com JavaScript, como animações mais complexa
-- [ ] Implementação de um sistema dinâmico para o envio de mensagens no formulário de contato
 
 ## 📝 Contato
 
