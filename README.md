@@ -66,7 +66,6 @@ Neste projeto, aprofundei meu conhecimento em:
 ## 💡 Melhorias Futuras
 
 - [x] Design responsivo adaptado para diferentes tamanhos de tela (desktop e mobile)
-- [ ] Adição de interatividade com JavaScript, como animações mais complexa
 
 ## 📝 Contato
 
